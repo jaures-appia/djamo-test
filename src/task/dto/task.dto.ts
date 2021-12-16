@@ -3,5 +3,5 @@ export class Task {
     readonly title: string;
     readonly content?: string;
     readonly done: boolean;
-    readonly dateAdd: string;
+    readonly dateAdd: any;
 }
